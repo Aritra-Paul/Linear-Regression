@@ -1,17 +1,2 @@
-# Linear-Regression
-We will be implementing RMSE, OLS, etc. 
-
-# Useful git commands
-- Clone the project into your computer
-    - git clone https://github.com/Aritra-Paul/Linear-Regression.git
-- Every time you start working on the project, make sure to do ```git pull```
-- Pushing code into github
-    - Create a new branch
-        - git checkout -b new_branch_name
-    - Check for local uncommited changes
-        - git status
-    - Add the uncommited files
-        - git add .
-    - Commit changes
-        - git commit -m "Message"
-    - git push --set-upstream origin branchname
+# Project Overview
+The focus for this Project was to practice working with linear models for regression. To begin, a CSV file consisting of various values and features. More specifically, the data contained 1338 samples of people and their features such as their age, sex, number of children, whether they smoke and the region, and finally the insurance charges they currently pay. The target here is the insurance charges.The first part focuses on implementing linear regression using the Ordinary Least Squares equation (OLS), and the second part focuses on implementing linear regression using gradient descent methods.
